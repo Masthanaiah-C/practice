@@ -26,7 +26,7 @@ for(int i=0;i<tm-1;i++)
     run--;
     }
 printf("%d",ser[0]);
-int test=0;int i=0;
+
 
 return 0;
 }

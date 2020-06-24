@@ -14,11 +14,11 @@ int x;
 scanf("%d",&x);int run=-1;
 for(int i=0;i<tm-1;i++)
     {run+=x;
-    while(run>tm-1)
+    while(run>tm-i-1)
         {
-            run=run-tm+i-1;
+            run=run-tm-i-1;
         }
-        for(int k=run;k<tm;k++)
+        for(int k=run;k<tm-i;k++)
     {
     ser[k]=ser[k+1];
     }
@@ -26,5 +26,7 @@ for(int i=0;i<tm-1;i++)
     run--;
     }
 printf("%d",ser[0]);
+int test=0;int i=0;
+
 return 0;
 }

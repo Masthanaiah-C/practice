@@ -1,4 +1,4 @@
-//task challenge
+//task challenge 
 
 #include <stdio.h>
 
@@ -28,3 +28,4 @@ for(int i=0;i<tm-1;i++)
 printf("%d",ser[0]);
 return 0;
 }
+//done

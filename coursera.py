@@ -27,8 +27,8 @@ def sequence(inz,fnl,res):
                 else:
                      j+=1
     return res
-inz="apmyfz"
-fnl="ympazf"
+inz="apmy"
+fnl="ympa"
 res=[]
 print(sequence(inz,fnl,res))
   
